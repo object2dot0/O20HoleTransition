@@ -1,0 +1,689 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		242D04769B245035CAAD44A43C50F570 /* Pods-O20HoleTransition_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C02BFB6DFF966199D555A7D80FDCC57 /* Pods-O20HoleTransition_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		25D85D2FBB88E4AF672C8DD5406D2C9C /* O20HoleTransition-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 46F6952893DB96DFC2F47923507B72E9 /* O20HoleTransition-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		28F7BFCAC5E781891DD2F2CF51C4315D /* Pods-O20HoleTransition_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EEFCECB31B2856676A05421D331EF46 /* Pods-O20HoleTransition_Example-dummy.m */; };
+		2C6A44777B7193C0427A17CAAC67808A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		9798171621825F527EC8485F08E8ECA5 /* Pods-O20HoleTransition_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F424CA77C8C4C83D7001CC53C233111 /* Pods-O20HoleTransition_Tests-dummy.m */; };
+		A14AFDAB1D3E006700078686 /* O20HoleTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14AFDAA1D3E006700078686 /* O20HoleTransition.swift */; };
+		A4EB5494D485CB3B43585C325F717382 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		BAC05BEAACE3DEA10AAAA5C2C55E50E0 /* Pods-O20HoleTransition_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 23C19C83D3F95F8D195D002ECDCA0E8A /* Pods-O20HoleTransition_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CCAAB88D6CEA5810AA7B31AADF4D603B /* O20HoleTransition-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 60FECD1C5DF0C379B286654319187F24 /* O20HoleTransition-dummy.m */; };
+		F65FF8BA5E5DF05787EF50C8F58A8183 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9E4316834164C3185753405E8F433DD4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 48DC62D1F18CE737705367F553BD8ED2;
+			remoteInfo = O20HoleTransition;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08AED07874C796E7DA1C36C61F227D23 /* Pods-O20HoleTransition_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-O20HoleTransition_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0CE8FA2F7AFD3599A8B52792AC080A3E /* O20HoleTransition.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = O20HoleTransition.xcconfig; sourceTree = "<group>"; };
+		0E22D2009C743DEA9BB04A97BE3BCC9D /* Pods_O20HoleTransition_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_O20HoleTransition_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1758AB058A7EC783DE7E2A3C733F35E5 /* Pods-O20HoleTransition_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-O20HoleTransition_Example.release.xcconfig"; sourceTree = "<group>"; };
+		1C4B759F46FE1798365AE526C4450767 /* O20HoleTransition-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "O20HoleTransition-prefix.pch"; sourceTree = "<group>"; };
+		2123CA34BEBAEEAFFD6FD7D975A9571C /* Pods-O20HoleTransition_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-O20HoleTransition_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		2356444BA7B3645CDFEC8BC1A53C3AAB /* Pods-O20HoleTransition_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-O20HoleTransition_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		23C19C83D3F95F8D195D002ECDCA0E8A /* Pods-O20HoleTransition_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-O20HoleTransition_Tests-umbrella.h"; sourceTree = "<group>"; };
+		25C6D72784C9A118AFA5F5B99FDC53C9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35738711EE7765A4BA28CFEF1A453EE3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D45B901EBBF085BFFE9CF8E72C58D72 /* Pods-O20HoleTransition_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-O20HoleTransition_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		46F6952893DB96DFC2F47923507B72E9 /* O20HoleTransition-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "O20HoleTransition-umbrella.h"; sourceTree = "<group>"; };
+		4A4E947975A079FB173FBDCBD66BEF68 /* Pods-O20HoleTransition_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-O20HoleTransition_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		4EEFCECB31B2856676A05421D331EF46 /* Pods-O20HoleTransition_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-O20HoleTransition_Example-dummy.m"; sourceTree = "<group>"; };
+		607B25B0862F65562C8BE6F86EA9899C /* Pods-O20HoleTransition_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-O20HoleTransition_Example-resources.sh"; sourceTree = "<group>"; };
+		60FECD1C5DF0C379B286654319187F24 /* O20HoleTransition-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "O20HoleTransition-dummy.m"; sourceTree = "<group>"; };
+		642B8D8C911B682A4EF4E13396DE6444 /* Pods_O20HoleTransition_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_O20HoleTransition_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F424CA77C8C4C83D7001CC53C233111 /* Pods-O20HoleTransition_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-O20HoleTransition_Tests-dummy.m"; sourceTree = "<group>"; };
+		711CBF339AAB29DED29B42E54F2FFF1D /* O20HoleTransition.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = O20HoleTransition.modulemap; sourceTree = "<group>"; };
+		7A45941A791DBD5F5F2C82B74640F775 /* Pods-O20HoleTransition_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-O20HoleTransition_Tests.modulemap"; sourceTree = "<group>"; };
+		84A62E8425B13909CA86F36C903B81EB /* O20HoleTransition.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = O20HoleTransition.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		85D1C937CE5695F14258FC058AA352A6 /* Pods-O20HoleTransition_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-O20HoleTransition_Tests-resources.sh"; sourceTree = "<group>"; };
+		8C02BFB6DFF966199D555A7D80FDCC57 /* Pods-O20HoleTransition_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-O20HoleTransition_Example-umbrella.h"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D3AFEE686BB8422B982F3882C1D58A2 /* Pods-O20HoleTransition_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-O20HoleTransition_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		A14AFDAA1D3E006700078686 /* O20HoleTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = O20HoleTransition.swift; sourceTree = "<group>"; };
+		AE1F237897050EC6323E371051A86327 /* Pods-O20HoleTransition_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-O20HoleTransition_Example-frameworks.sh"; sourceTree = "<group>"; };
+		C6DFBBA631B34923DDF6A6645BDB5A98 /* Pods-O20HoleTransition_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-O20HoleTransition_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DFB45A0514E57368979E56A48BA313DB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E310DDD108B54DE430E6627ECEDD2EE4 /* Pods-O20HoleTransition_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-O20HoleTransition_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E53CAA4DA1710649D1BCA71E02BFA67F /* Pods-O20HoleTransition_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-O20HoleTransition_Example.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6D9F70EF2E095D9210912A78FB672F84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4EB5494D485CB3B43585C325F717382 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F26A0B59AA5334E1F332A209C051B77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F65FF8BA5E5DF05787EF50C8F58A8183 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1DADCB58BC5A4D347DF72D1E8194CC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C6A44777B7193C0427A17CAAC67808A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00E4138C47BB1E8CC9C4E560C91150AA /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6337B321CBA50F53B78324371F99AF8D /* Pods-O20HoleTransition_Example */,
+				96C626C2FCF527C101701A97CC3011A9 /* Pods-O20HoleTransition_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		2E04715C57103534E97600D96B4D9B01 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A14AFDAA1D3E006700078686 /* O20HoleTransition.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		40BE5F7362E9513E0BE60B8A57C4845B /* O20HoleTransition */ = {
+			isa = PBXGroup;
+			children = (
+				57FC6AD268D37AACD8A3F353E1E50998 /* O20HoleTransition */,
+				7271CDE42CEFF07DBE741F6B6E58BDBA /* Support Files */,
+			);
+			name = O20HoleTransition;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		57FC6AD268D37AACD8A3F353E1E50998 /* O20HoleTransition */ = {
+			isa = PBXGroup;
+			children = (
+				2E04715C57103534E97600D96B4D9B01 /* Classes */,
+			);
+			path = O20HoleTransition;
+			sourceTree = "<group>";
+		};
+		6337B321CBA50F53B78324371F99AF8D /* Pods-O20HoleTransition_Example */ = {
+			isa = PBXGroup;
+			children = (
+				35738711EE7765A4BA28CFEF1A453EE3 /* Info.plist */,
+				E53CAA4DA1710649D1BCA71E02BFA67F /* Pods-O20HoleTransition_Example.modulemap */,
+				08AED07874C796E7DA1C36C61F227D23 /* Pods-O20HoleTransition_Example-acknowledgements.markdown */,
+				C6DFBBA631B34923DDF6A6645BDB5A98 /* Pods-O20HoleTransition_Example-acknowledgements.plist */,
+				4EEFCECB31B2856676A05421D331EF46 /* Pods-O20HoleTransition_Example-dummy.m */,
+				AE1F237897050EC6323E371051A86327 /* Pods-O20HoleTransition_Example-frameworks.sh */,
+				607B25B0862F65562C8BE6F86EA9899C /* Pods-O20HoleTransition_Example-resources.sh */,
+				8C02BFB6DFF966199D555A7D80FDCC57 /* Pods-O20HoleTransition_Example-umbrella.h */,
+				9D3AFEE686BB8422B982F3882C1D58A2 /* Pods-O20HoleTransition_Example.debug.xcconfig */,
+				1758AB058A7EC783DE7E2A3C733F35E5 /* Pods-O20HoleTransition_Example.release.xcconfig */,
+			);
+			name = "Pods-O20HoleTransition_Example";
+			path = "Target Support Files/Pods-O20HoleTransition_Example";
+			sourceTree = "<group>";
+		};
+		7271CDE42CEFF07DBE741F6B6E58BDBA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				25C6D72784C9A118AFA5F5B99FDC53C9 /* Info.plist */,
+				711CBF339AAB29DED29B42E54F2FFF1D /* O20HoleTransition.modulemap */,
+				0CE8FA2F7AFD3599A8B52792AC080A3E /* O20HoleTransition.xcconfig */,
+				60FECD1C5DF0C379B286654319187F24 /* O20HoleTransition-dummy.m */,
+				1C4B759F46FE1798365AE526C4450767 /* O20HoleTransition-prefix.pch */,
+				46F6952893DB96DFC2F47923507B72E9 /* O20HoleTransition-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/O20HoleTransition";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				AD4441AF18EB391229229081ED58E7C4 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				E88A2ED432055D1696682E855C67FA7C /* Products */,
+				00E4138C47BB1E8CC9C4E560C91150AA /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		96C626C2FCF527C101701A97CC3011A9 /* Pods-O20HoleTransition_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				DFB45A0514E57368979E56A48BA313DB /* Info.plist */,
+				7A45941A791DBD5F5F2C82B74640F775 /* Pods-O20HoleTransition_Tests.modulemap */,
+				E310DDD108B54DE430E6627ECEDD2EE4 /* Pods-O20HoleTransition_Tests-acknowledgements.markdown */,
+				3D45B901EBBF085BFFE9CF8E72C58D72 /* Pods-O20HoleTransition_Tests-acknowledgements.plist */,
+				6F424CA77C8C4C83D7001CC53C233111 /* Pods-O20HoleTransition_Tests-dummy.m */,
+				4A4E947975A079FB173FBDCBD66BEF68 /* Pods-O20HoleTransition_Tests-frameworks.sh */,
+				85D1C937CE5695F14258FC058AA352A6 /* Pods-O20HoleTransition_Tests-resources.sh */,
+				23C19C83D3F95F8D195D002ECDCA0E8A /* Pods-O20HoleTransition_Tests-umbrella.h */,
+				2123CA34BEBAEEAFFD6FD7D975A9571C /* Pods-O20HoleTransition_Tests.debug.xcconfig */,
+				2356444BA7B3645CDFEC8BC1A53C3AAB /* Pods-O20HoleTransition_Tests.release.xcconfig */,
+			);
+			name = "Pods-O20HoleTransition_Tests";
+			path = "Target Support Files/Pods-O20HoleTransition_Tests";
+			sourceTree = "<group>";
+		};
+		AD4441AF18EB391229229081ED58E7C4 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				40BE5F7362E9513E0BE60B8A57C4845B /* O20HoleTransition */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E88A2ED432055D1696682E855C67FA7C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84A62E8425B13909CA86F36C903B81EB /* O20HoleTransition.framework */,
+				642B8D8C911B682A4EF4E13396DE6444 /* Pods_O20HoleTransition_Example.framework */,
+				0E22D2009C743DEA9BB04A97BE3BCC9D /* Pods_O20HoleTransition_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A7543740630D5B5279E4276055258A38 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25D85D2FBB88E4AF672C8DD5406D2C9C /* O20HoleTransition-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B697A6D97A0258B1E9045A584B85D080 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAC05BEAACE3DEA10AAAA5C2C55E50E0 /* Pods-O20HoleTransition_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F44B9C17DA5B96627B40388B26CBDB3F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				242D04769B245035CAAD44A43C50F570 /* Pods-O20HoleTransition_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		48DC62D1F18CE737705367F553BD8ED2 /* O20HoleTransition */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDB651CECFB0E62EFBBD44A531841413 /* Build configuration list for PBXNativeTarget "O20HoleTransition" */;
+			buildPhases = (
+				99748BA4DE30F5A7B3C451E92A45684C /* Sources */,
+				A1DADCB58BC5A4D347DF72D1E8194CC4 /* Frameworks */,
+				A7543740630D5B5279E4276055258A38 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = O20HoleTransition;
+			productName = O20HoleTransition;
+			productReference = 84A62E8425B13909CA86F36C903B81EB /* O20HoleTransition.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C47EFAE4D7873FF4D7D07B5F895ABDF9 /* Pods-O20HoleTransition_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B39CDDF2C28DC0C180201D7DF615D3F0 /* Build configuration list for PBXNativeTarget "Pods-O20HoleTransition_Example" */;
+			buildPhases = (
+				5234C6B100519075595BF7ADBA4DF076 /* Sources */,
+				7F26A0B59AA5334E1F332A209C051B77 /* Frameworks */,
+				F44B9C17DA5B96627B40388B26CBDB3F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				852D8F90441AB64485D4630AE2953E0A /* PBXTargetDependency */,
+			);
+			name = "Pods-O20HoleTransition_Example";
+			productName = "Pods-O20HoleTransition_Example";
+			productReference = 642B8D8C911B682A4EF4E13396DE6444 /* Pods_O20HoleTransition_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CCE46B2DEDBEC587584CCE101C22AC5C /* Pods-O20HoleTransition_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93094C4008D7926F952C0416BEA57B7D /* Build configuration list for PBXNativeTarget "Pods-O20HoleTransition_Tests" */;
+			buildPhases = (
+				E5A5737F76AED4E0A55EBAD13BE0F221 /* Sources */,
+				6D9F70EF2E095D9210912A78FB672F84 /* Frameworks */,
+				B697A6D97A0258B1E9045A584B85D080 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-O20HoleTransition_Tests";
+			productName = "Pods-O20HoleTransition_Tests";
+			productReference = 0E22D2009C743DEA9BB04A97BE3BCC9D /* Pods_O20HoleTransition_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = E88A2ED432055D1696682E855C67FA7C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				48DC62D1F18CE737705367F553BD8ED2 /* O20HoleTransition */,
+				C47EFAE4D7873FF4D7D07B5F895ABDF9 /* Pods-O20HoleTransition_Example */,
+				CCE46B2DEDBEC587584CCE101C22AC5C /* Pods-O20HoleTransition_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5234C6B100519075595BF7ADBA4DF076 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28F7BFCAC5E781891DD2F2CF51C4315D /* Pods-O20HoleTransition_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99748BA4DE30F5A7B3C451E92A45684C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A14AFDAB1D3E006700078686 /* O20HoleTransition.swift in Sources */,
+				CCAAB88D6CEA5810AA7B31AADF4D603B /* O20HoleTransition-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5A5737F76AED4E0A55EBAD13BE0F221 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9798171621825F527EC8485F08E8ECA5 /* Pods-O20HoleTransition_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		852D8F90441AB64485D4630AE2953E0A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = O20HoleTransition;
+			target = 48DC62D1F18CE737705367F553BD8ED2 /* O20HoleTransition */;
+			targetProxy = 9E4316834164C3185753405E8F433DD4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1809E14C0A5FA1FA4F736476CD3CBF27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2123CA34BEBAEEAFFD6FD7D975A9571C /* Pods-O20HoleTransition_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-O20HoleTransition_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-O20HoleTransition_Tests/Pods-O20HoleTransition_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_O20HoleTransition_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		75AF044C82133326C23C449B14AA356D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CE8FA2F7AFD3599A8B52792AC080A3E /* O20HoleTransition.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/O20HoleTransition/O20HoleTransition-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/O20HoleTransition/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/O20HoleTransition/O20HoleTransition.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = O20HoleTransition;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A2C3CF7E44185983E47D264E9F5CD48D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CE8FA2F7AFD3599A8B52792AC080A3E /* O20HoleTransition.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/O20HoleTransition/O20HoleTransition-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/O20HoleTransition/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/O20HoleTransition/O20HoleTransition.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = O20HoleTransition;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A5C0BF74CEEDE3EFA8A6DE01E2B74010 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D3AFEE686BB8422B982F3882C1D58A2 /* Pods-O20HoleTransition_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-O20HoleTransition_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-O20HoleTransition_Example/Pods-O20HoleTransition_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_O20HoleTransition_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D8E912D46C434FD9F9757CF65147CC18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1758AB058A7EC783DE7E2A3C733F35E5 /* Pods-O20HoleTransition_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-O20HoleTransition_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-O20HoleTransition_Example/Pods-O20HoleTransition_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_O20HoleTransition_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FA7CB11DF2216D3136A5654B87CD7700 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2356444BA7B3645CDFEC8BC1A53C3AAB /* Pods-O20HoleTransition_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-O20HoleTransition_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-O20HoleTransition_Tests/Pods-O20HoleTransition_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_O20HoleTransition_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */,
+				0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93094C4008D7926F952C0416BEA57B7D /* Build configuration list for PBXNativeTarget "Pods-O20HoleTransition_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1809E14C0A5FA1FA4F736476CD3CBF27 /* Debug */,
+				FA7CB11DF2216D3136A5654B87CD7700 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B39CDDF2C28DC0C180201D7DF615D3F0 /* Build configuration list for PBXNativeTarget "Pods-O20HoleTransition_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5C0BF74CEEDE3EFA8A6DE01E2B74010 /* Debug */,
+				D8E912D46C434FD9F9757CF65147CC18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDB651CECFB0E62EFBBD44A531841413 /* Build configuration list for PBXNativeTarget "O20HoleTransition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2C3CF7E44185983E47D264E9F5CD48D /* Debug */,
+				75AF044C82133326C23C449B14AA356D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

@@ -1,0 +1,22 @@
+{
+  "name": "O20HoleTransition",
+  "version": "0.1.0",
+  "summary": "A short description of O20HoleTransition.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/O20HoleTransition",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Tanveer": "object2.0@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/O20HoleTransition.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "O20HoleTransition/Classes/**/*"
+}

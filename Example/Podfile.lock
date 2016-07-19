@@ -1,0 +1,16 @@
+PODS:
+  - O20HoleTransition (0.1.0)
+
+DEPENDENCIES:
+  - O20HoleTransition (from `../`)
+
+EXTERNAL SOURCES:
+  O20HoleTransition:
+    :path: ../
+
+SPEC CHECKSUMS:
+  O20HoleTransition: c97cf612478ffbe1c54ef256fe145831d122dcca
+
+PODFILE CHECKSUM: ad9c0afc01ab0911726d6e0036c30daff2efbf4f
+
+COCOAPODS: 1.0.1

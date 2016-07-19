@@ -1,0 +1,6 @@
+framework module O20HoleTransition {
+  umbrella header "O20HoleTransition-umbrella.h"
+
+  export *
+  module * { export * }
+}
