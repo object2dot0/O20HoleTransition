@@ -9,7 +9,8 @@
 Pod::Spec.new do |s|
   s.name             = 'O20HoleTransition'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of O20HoleTransition.'
+    s.author       = 'Tanveer'
+  s.summary          = 'Custom UIViewController transition to present the UIViewController.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +19,9 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+A custom UIViewController transition to show the ViewController with the closing and opening hole.
+* More suited towards the loading screens as while the transiting is happening user will see the preview of the screen underneath it.
+
                        DESC
 
   s.homepage         = 'https://github.com/object2dot0/O20HoleTransition'
@@ -26,7 +29,7 @@ TODO: Add long description of the pod here.
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Tanveer' => 'object2.0@gmail.com' }
   s.source           = { :git => 'https://github.com/object2dot0/O20HoleTransition.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  # s.social_media_url = 'https://twitter.com/object2dot0'
 
   s.ios.deployment_target = '8.0'
 
@@ -37,6 +40,6 @@ TODO: Add long description of the pod here.
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+   s.frameworks = 'UIKit', 'QuartzCore'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
