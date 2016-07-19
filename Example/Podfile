@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'O20HoleTransition_Example' do
+  pod 'O20HoleTransition', :path => '../'
+
+  target 'O20HoleTransition_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
